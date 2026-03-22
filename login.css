@@ -84,3 +84,34 @@
 .wrapper .bnt:hover{
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+
+    .bob {
+        overflow-x: hidden;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .wrapper h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    input {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+}
